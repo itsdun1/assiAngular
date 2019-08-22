@@ -42,3 +42,18 @@ img{
 	font-size: 20px;
 	margin-top: 10px;
 }
+
+/*  zoom image  */
+
+.zoomin img {
+  height: 260px;
+  width: 260px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+.zoomin img:hover {
+  width: 350px;
+  height: 350px;
+}
