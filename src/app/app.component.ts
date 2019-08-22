@@ -8,10 +8,6 @@ import { Component ,OnInit} from '@angular/core';
 export class AppComponent {
   title = 'assiapp';
   data = {
-  }
-  moDate;
- constructor(){
-  this.data = {
     name: "Bluetooth Speakers",
     title: "JBL Go Portable Wireless Bluetooth Speaker with Mic (Black)",
     sourceCategory: "Bluetooth Speakers",
@@ -19,6 +15,9 @@ export class AppComponent {
     createdAt: new Date("2018-08-31T09:36:08.448Z"),
     reviewCount: "3013",
   }
+  moDate;
+ constructor(){
+
 
  }
 
